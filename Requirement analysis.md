@@ -1,5 +1,6 @@
 **Requirement:**
   Password cannot be shorter than 8 symbols.
+
 **Interpretation:**
   * Minimum password length is 8 characters;
   * Password with less than 8 characters is invalid;
