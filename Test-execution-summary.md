@@ -11,7 +11,7 @@
 * Positive Testing
 * Negative Testing
 * Input Validation Testing
-* Client/Server Validation Testing
+* Root cause investigation
 
 **Test cases executed:** 6
 
