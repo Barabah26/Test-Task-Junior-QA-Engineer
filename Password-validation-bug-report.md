@@ -45,7 +45,7 @@ The 7-character password is accepted, and the registration is successfully compl
 
 ## Root cause
 
-The registration request containing a 7-character password was sent to the API. The API returned **HTTP 200** instead of rejecting the invalid password. This indicates that the minimum password length requirement is not enforced by the backend.
+Password length validation is not implemented. After submitting a 7-character password, the frontend sends the sign-up request without any check. The API responds with HTTP 200 and the account is created.
 
 ## Suggested Fix
 
